@@ -1,0 +1,98 @@
+@import url("https://fonts.googleapis.com/css?family=Rubik");
+*{
+    margin: 0;
+    padding: 0%;
+}
+
+body{
+    font-family: 'Rubik',sans-serif;
+    font-size: 1em;
+    color: #707070;
+    text-align: center;
+}
+h1{
+    color: #3b3b3b;
+    font-size: 2em;
+
+}
+
+h3{
+    color: #3b3b3b;
+    font-size: 1.375em;
+}
+
+/* Estilos del header*/
+
+#header{
+    background: #ececec;
+}
+
+.link-menu{
+    color: #707070;
+    text-decoration: none;
+}
+
+a:hover{
+    color: #6984e6;
+}
+
+/*Estilos Section*/
+#principal{
+    margin-top: 3.125em;
+    min-height: calc(100vh - 4.6875em);
+}
+
+/*Estilos producto*/
+#producto{
+    background: -webkit-linear-gradient(90deg,#6859ea 10%, #6acbe0 90%) ;
+    background: -moz-linear-gradient(90deg,#6859ea 10%, #6acbe0 90%);
+    background: linear-gradient(90deg,#6859ea 10%, #6acbe0 90%);
+    color: #ffffff;
+}
+
+.espacio-row{
+    padding-top: 2em;
+    padding-bottom: 2em;
+}
+
+/*Estilos Footer*/
+#footer{
+    background: #3b3b3b;
+    color: #fff;
+    height: 4.6875em;
+
+}
+.boton-enviar{
+    background-color: #BD92DE;
+    border-color: #BD92DE;
+}
+.boton-enviar:hover{
+    background-color: #A1B4EF;
+    color: black;
+    border-color: black;
+}
+
+.form-group{
+    margin: 10px;
+    padding: 10px;
+}
+.form-group input{
+    border-radius: 50px;
+    background: -webkit-linear-gradient(90deg, #6859EA 10%, #6ACBE0 90%);
+    background: -moz-linear-gradient(90deg, #6859EA 10%, #6ACBE0 90%);
+    background: linear-gradient(90deg, #6859EA 10%, #6ACBE0 90%);
+    color: #010101;
+}
+.form-group textarea{
+    border-radius: 25px;
+    background: -webkit-linear-gradient(90deg, #6859EA 10%, #6ACBE0 90%);
+    background: -moz-linear-gradient(90deg, #6859EA 10%, #6ACBE0 90%);
+    background: linear-gradient(90deg, #6859EA 10%, #6ACBE0 90%);
+    color: #010101;
+}
+.form-group ::placeholder{
+    color: white;
+}
+
+
+
